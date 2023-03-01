@@ -1,0 +1,41 @@
+# User Control Panel Design
+
+## Components
+
+### User Table
+<p>A table listing ID, Username, Email and Account Status on left half of the screen.<p/>
+
+- <p>Table elements should have alternating white and blue backgrounds to improve readability.<p/>
+
+- <p>Table should default to ascending ID order without filters when first started and remember user choices.<p/>
+
+- <p>Table should be rearrangable and filterable by clicking respective sort and filter buttons.<p/>
+
+### Settings
+
+<p>This screen displays selected users Username as a header on top and Username, Display Name, Phone, Email, User Roles and Account Status fields in order on right half of the screen.<p/>
+
+- <p>Username, Display Name, Phone and Email should have editable fields.<p/>
+
+- <p>User Roles must have a special field opening a menu that lists available roles, active ones in blue color.<p/>
+
+- <p>Account Status should be displayed as a checkbox and written as Enabled.
+
+### Upper Bar
+
+<p>Above other two components there should be a small gray bar for buttons.<p/>
+
+
+#### Save Button
+
+<p>Users must click blue "Save User" button on right side of the bar to have changes take effect for new or changed user.<p/>
+
+#### New User Button
+
+<p>Users should click "+ New User" button on left side of the screen to create an empty user template with empty fields. User isn't created until save button is clicked.<p/>
+
+<p>Note: This should be the default screen everytime panel is opened.<p/>
+
+#### Hide Button
+
+<p>Next to the save button there should be a checkbox and "Hide Disabled User" text, enabling this should hide disabled users from User Table<p/>
